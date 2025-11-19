@@ -1,0 +1,12 @@
+[Unit]
+Description=Simple Flask Web App
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/ec2-web-app
+ExecStart=/usr/bin/python3 app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
