@@ -28,8 +28,7 @@ Displays:Hello from AWS EC2!
 This app is running on Ubuntu (Free Tier)
 
 
-### `/about`
-Shows:anandhu vijayan 
+
 
 ---
 
